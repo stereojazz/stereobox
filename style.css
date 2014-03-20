@@ -1,0 +1,58 @@
+hr {
+    border-top: 1px dotted #aaa;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.content {
+    margin: 20px;
+    font-family: 'PT Sans', 'Helvetica', sans-serif;;
+    font-size: 1em;
+}
+
+.code {
+    font-family: 'Courier', sans-serif;
+    font-size: .8em;
+    background-color: #ededed;
+    border-width: 1px;
+    border-style: dotted;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    word-wrap: normal;
+}
+
+.header {
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+
+.footer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #aaa;
+}
+
+.footer p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.title {
+    float: left;
+}
+
+.userpic {
+    width: 96px;
+    height: 96px;
+    border-radius: 48px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    background: url('userpic.png') no-repeat;
+    background-size: 96px 96px;
+    float: right;
+}
