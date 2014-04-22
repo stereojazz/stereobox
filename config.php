@@ -8,6 +8,7 @@
     define('STEREOBOX_USER',       'Sample user');
     define('STEREOBOX_TITLE',      'Stereobox');
     define('STEREOBOX_CODE_DIR',   'code');
+    define('STEREOBOX_INPUT_DIR',  'input');
     define('EXECUTABLE_EXTENSION', 'php');
 
     function loadClass($class) {

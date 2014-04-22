@@ -60,6 +60,12 @@ class Stereobox {
 
         return null;
     }
+
+    public function readInputFile($file) {
+        $contents = file_get_contents(STEREOBOX_INPUT_DIR . DS . $file);
+
+        return $contents;
+    }
 }
 
 ?>
